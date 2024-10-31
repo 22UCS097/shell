@@ -1,5 +1,8 @@
 function func {
-       echo "hello ji"
+    a=5
+    b=6
+    let sum=$a+$b
+       echo "sum is : $sum"
 }
 
 myfunc() {
@@ -7,4 +10,3 @@ myfunc() {
 }
 
 func
-myfunc
